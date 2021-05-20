@@ -21,8 +21,6 @@ while i < 359448:
     continue
 
 temps_array = np.array(all_temps)
-print(f" temps array len: {len(temps_array)}")
-
 
 # for datetime
 i = 0
@@ -34,7 +32,6 @@ while i < 359448:
     continue
 
 dates_array = np.array(all_dates)
-print(f" dates array len: {len(dates_array)}")
 
 
 with open('temps.csv', 'w', newline='') as file:
