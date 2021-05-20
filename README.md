@@ -10,3 +10,12 @@ The original CSV file was nested. See below for a snippet of the data:
 ```
 It was tricky to retrieve the required data, so I created a new CSV file with just the data I wanted (unix time and temperature) to ease the process. I did that via:  *creating_new_csv.py*
 
+## The models
+
+Temperature changes throughout the year intuitively follow a non-linear pattern. Nontheless I used both linear and non-linear machine learning models to see which models were more succesful. I used the sklearn library to employ these models: 
+
+1. Linear Model
+   - Linear Regression
+2. Non linear models
+   - Decision Tree Regression
+   - Random Forrest Regression
