@@ -23,6 +23,11 @@ Temperature changes throughout the year intuitively follow a non-linear pattern.
 I split the data into training and test sets and apply the models in: *MLmodels.py*
 
 ## Results
-Running *MLmodels.py* shows clearly the superiority of running non-linear models compared to the linear model. Two indicators I have used to show model suitability are mean squared error and the coefficient of determination (r\u00b2)
+Running *MLmodels.py* shows clearly the superiority of running non-linear models compared to the linear model. Two indicators I have used to show model suitability are mean squared error and the coefficient of determination (r-squared). Running the script obtains:
+
+Model |  MSE  | r-squared |
+| ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  |   ddd            |
+| Content Cell  | Content Cell  |    ddd           |
 
 ## Further Analysis
