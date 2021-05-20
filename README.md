@@ -31,6 +31,6 @@ Model                       |  MSE          | r-squared        |
 | Decision Tree regression  | 0.3940        |   0.9823         |
 | Random Forrest regression | 0.3568        |   0.9840         |
 
-
+When considering the best value for 0 and 1 for MSE and r-squared respectively, the results are clear. Both non-linear models yield similar results, however the Random Forrest Regression is significantly more computationally expensive. However, there are many variables to take into account with these models and further analysis will improve my understanding of the use of these models.
 
 ## Further Analysis
