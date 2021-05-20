@@ -25,9 +25,12 @@ I split the data into training and test sets and apply the models in: *MLmodels.
 ## Results
 Running *MLmodels.py* shows clearly the superiority of running non-linear models compared to the linear model. Two indicators I have used to show model suitability are mean squared error and the coefficient of determination (r-squared). Running the script obtains:
 
-Model |  MSE  | r-squared |
-| ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  |   ddd            |
-| Content Cell  | Content Cell  |    ddd           |
+Model                       |  MSE          | r-squared        |
+| ------------------------- | ------------- | -------------    |
+|    Linear regression      | 22.1746       |   0.0045         |
+| Decision Tree regression  | 0.3940        |   0.9823         |
+| Random Forrest regression | 0.3568        |   0.9840         |
+
+
 
 ## Further Analysis
