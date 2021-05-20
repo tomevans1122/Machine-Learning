@@ -19,3 +19,5 @@ Temperature changes throughout the year intuitively follow a non-linear pattern.
 2. Non linear models
    - Decision Tree Regression
    - Random Forrest Regression
+
+I split the data into training and test sets and apply the models in *MLmodels.py*
