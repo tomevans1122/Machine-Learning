@@ -20,7 +20,6 @@ while i < 359448:
     i += 1
     continue
 
-temps_array = np.array(all_temps)
 
 # for datetime
 i = 0
@@ -31,6 +30,8 @@ while i < 359448:
     i += 1
     continue
 
+# Make collected lists into arrays
+temps_array = np.array(all_temps)       
 dates_array = np.array(all_dates)
 
 
