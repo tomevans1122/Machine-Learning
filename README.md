@@ -1,6 +1,6 @@
 # Machine-Learning
 
-This repo contains my exploration and investigation of historical weather data using machine learning models. I purchased the hisotrical weather data for a set of coordinates every hour since 1/1/1980 until 1/1/2021. Naturally, the file is quite large at 109 MB.
+This repository contains my exploration and investigation of historical weather data using machine learning models. I purchased the hisotrical weather data for a set of coordinates every hour since 1/1/1980 until 1/1/2021. Naturally, the file is quite large at 109 MB.
 
 ## The data 
 The original CSV file was nested. See below for a snippet of the data:
