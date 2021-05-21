@@ -2,7 +2,6 @@ import unittest
 import numpy as np
 import pandas as pd
 import MLmodels
-from MLmodels import array, weather_y, weather_X, train_y, train_X, test_y, test_X, test_size
 
 class TestDataSets(unittest.TestCase):
 
