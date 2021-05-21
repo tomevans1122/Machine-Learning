@@ -34,7 +34,7 @@ class TestDataSets(unittest.TestCase):
 
     def test_correct_split_X(self):
         """
-        Test that the test size chosen in train_test_split creates the correct training and test set sizes
+        Test that the test size chosen in train_test_split results in the correct training and test set sizes
         for weather_X
         """
         a = len(train_X[:])     # number of data entries in training set
@@ -45,7 +45,7 @@ class TestDataSets(unittest.TestCase):
 
     def test_correct_split_y(self):
         """
-        Test that the test size chosen in train_test_split creates the correct training and test set sizes
+        Test that the test size chosen in train_test_split results in the correct training and test set sizes
         for weather_y
         """
         a = len(train_y[:])     # number of data entries in training set
