@@ -32,6 +32,5 @@ Model                       |  MSE          | r-squared        |
 | Random Forrest regression | 0.3568        |   0.9840         |
 
 When considering the best value for 0 and 1 for MSE and r-squared respectively, the results are clear. Linear regression is not an appropriate model for succesful machine learning of my data set. Both non-linear models yield similar results, however the Random Forrest Regression takes significantly longer to yeild results. After tinkering with the input parameters (such as depth and number of estimations) I feel there is a theme of balancing accuracy of results with computational expense and time. 
-However, there are many variables to take into account with these models and I'm fully aware I have only scratched the surface of these models' capabilities. What if the random forrest node depth is set to 10 and number of trees 1000? How will the relationship with MSE and r-squared change?
-I will continue with analysis of the models as I investigate machine learning further.
+However, there are many variables to take into account with these models and I'm fully aware I have only scratched the surface of these models' capabilities.
 
