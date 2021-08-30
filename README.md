@@ -12,7 +12,7 @@ It was tricky to retrieve the required data for usage, so I created a new CSV fi
 
 ## The models
 
-Temperature changes throughout the year intuitively follow a non-linear pattern. Nontheless I used both linear and non-linear machine learning models to see which models were more succesful. I used the sklearn library to employ these models: 
+Temperature changes throughout the year intuitively follow a non-linear pattern. Nontheless I used both linear and non-linear machine learning models to see which models were more successful. I used the sklearn library to employ these models: 
 
 1. Linear Model
    - Linear Regression
